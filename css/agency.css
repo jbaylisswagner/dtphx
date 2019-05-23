@@ -16,7 +16,7 @@ body {
     font-weight: 700;
     padding: 2rem;
     color: #596e53;
-    font-size: 1.5rem; 
+    font-size: 1.5rem;
 }
 
 
@@ -239,6 +239,29 @@ img::-moz-selection {
 #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
   color: #d8ae6d;
 }
+
+.dropdown-item .active{
+/*fill this in for when the user is clicking the features dropdown*/
+}
+
+.dropdown-menu {
+    top: 56%;
+    background: #212529;
+    color: white;
+    border: none;
+    margin: 1.125rem;
+    /*left: 15px; MAKE SURE THIS CHANGES FOR MOBILE...*/
+}
+
+.dropdown-item{
+    color: #ffffff;
+}
+
+/*WHEN FEATURES DROPDOWN IS CLICKED ON & EXPANDED
+.dropdown-menu .show{
+    background: transparent;
+    color: white;
+}*/
 
 @media (min-width: 992px) {
   #mainNav {
